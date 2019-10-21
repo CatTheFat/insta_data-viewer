@@ -604,24 +604,4 @@ func main() {
 
 	}
 
-	/*       //Struct Parse Test
-
-	file, fcreateErr := os.Create("outdata.txt")
-
-	ErrHandle(fcreateErr)
-
-	defer file.Close()
-
-
-	fmt.Println("Writing to File....")
-
-	str := fmt.Sprintf("%+v", data)
-
-	wrbytes, wrErr := file.WriteString(str)
-
-	ErrHandle(wrErr)
-
-	fmt.Println("Wrote %d bytes", wrbytes)
-
-	*/
 }
