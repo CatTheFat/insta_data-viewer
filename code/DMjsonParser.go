@@ -58,7 +58,7 @@ func openf() {
 	fmt.Println(`Enter the owner of the file (@tag)`)
 	fmt.Scanln(&master)
 
-	jsonRawBytes, fopenErr := ioutil.ReadFile("C:\\MaPath\\files\\messages.json")
+	jsonRawBytes, fopenErr := ioutil.ReadFile(fileLoc)
 
 	//---ReadFile error handling---//
 	ErrHandle(fopenErr)
